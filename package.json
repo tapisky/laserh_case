@@ -1,0 +1,23 @@
+{
+  "name": "laserh_case",
+  "version": "1.0.0",
+  "description": "Case for LaserH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapisky/laserh_case.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tapisky/laserh_case/issues"
+  },
+  "homepage": "https://github.com/tapisky/laserh_case#readme",
+  "devDependencies": {
+    "cypress": "^10.1.0"
+  }
+}
