@@ -27,5 +27,11 @@ class LoginPage {
             .should('be.visible')
             .click()
     }
+
+    fillAndSendLoginInfo(username, password) {
+        this.enterUsername(username);
+        this.enterPassword(password);
+        this.submit();
+    }
 }
 export default LoginPage
