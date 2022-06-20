@@ -1,9 +1,8 @@
 class LoginPage {
-    navigate() {
+    initialize() {
+        // Sets required cookies to skip modal and navigates to login page
+        cy.setCookie('OptanonAlertBoxClosed', '2022-01-20T10:23:56.707Z');
         cy.visit('https://app.laserhub.com/login');
-        // Accept cookies if modal shows up
-        cy.contains('button', 'Accept All Cookies').click()
-        cy.reload()
     }
 
     enterUsername(username) {
